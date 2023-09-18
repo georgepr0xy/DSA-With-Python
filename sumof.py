@@ -1,11 +1,15 @@
-import random
-num = random.randint(2,10)
-print(num)
-num=[]
-num = 0
-for i in num:
-    for j in num:
+target = 4
+num=[5,3,1]
+ans=[]
+for i in range(len(num)):
+    for j in range(len(num)):
         if i == j :
+          break
+        elif num[i]+num[j] == target:
+           ans.append(i)
+           ans.append(j)
+    j+=1
+i+=1           
 
-     break
-        elif num[i]+num[j]
+
+print(ans)           
