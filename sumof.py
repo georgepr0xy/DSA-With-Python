@@ -1,5 +1,5 @@
-target = 4
-num=[5,3,1]
+target = 5
+num=[5,3,1,3,2]
 ans=[]
 for i in range(len(num)):
     for j in range(len(num)):
