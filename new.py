@@ -8,9 +8,10 @@
 n = ["abcdefghijklmnopqrstuvwxyz"]
 m= 5
 
-for i in range(m):
-    for j in n[i]:
-      print(j, end=" ")
+print(n[3])
+for i in range(5):
+    print(n[i], end=" ")
+    print()  
     
     
           
