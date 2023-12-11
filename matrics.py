@@ -20,12 +20,6 @@ def sum(A,B):
         result.append(rowsum)   
     return(result)     
 
-
-
-
-    
-
-
 print("enter the size of matrix MXN\n")
 m= int(input("enter the value of M:\n"))
 n= int(input("enter the value of n:\n"))
