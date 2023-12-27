@@ -1,0 +1,9 @@
+
+#using euclerian formula gcd(a,b)= gcd(b,a%b)
+class Solution:
+    def gcd(self, A, B):
+         if B==0:
+             return A
+    
+         return self.gcd(B,A%B)  
+

@@ -37,6 +37,25 @@
 
 # num = 1//10
 # print(num)
-a=4
-b=8
-r=gcd(a,a%b)
+# a=4
+# b=8
+# r=gcd(a,a%b)
+
+# def gcd(a, b):
+#     if b == 0:
+#         return a
+#     return gcd(b, a % b)
+
+
+# if __name__ == "__main__":
+#     a = 3
+#     b = 7
+#     print("The GCD of the two numbers is", gcd(a, b))
+
+
+# print(3%1)    
+
+
+temp = 332
+temp %= 10
+print(temp)
