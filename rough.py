@@ -56,6 +56,16 @@
 # print(3%1)    
 
 
-temp = 332
-temp %= 10
-print(temp)
+# temp = 332
+# temp %= 10
+# print(temp)
+
+# n= 35
+# for i in range(1,n):
+#     if n%i==0:
+#         print(i,end =' ')
+# print()    
+from math import sqrt
+a= sqrt(5)
+b=4
+print(a,b)
