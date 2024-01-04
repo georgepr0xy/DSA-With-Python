@@ -65,7 +65,27 @@
 #     if n%i==0:
 #         print(i,end =' ')
 # print()    
-from math import sqrt
-a= sqrt(5)
-b=4
-print(a,b)
+# from math import sqrt
+# a= sqrt(5)
+# b=4
+# print(a,b)
+
+
+cnt = 0
+
+def print_function():
+    global cnt
+
+    # Base Condition.
+    if cnt == 3:
+        return 1
+    
+    print(cnt)
+    
+
+    # Count Incremented
+    cnt += 1
+    print_function()
+
+if __name__ == "__main__":
+    print_function()
