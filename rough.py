@@ -71,21 +71,27 @@
 # print(a,b)
 
 
-cnt = 0
+# cnt = 0
 
-def print_function():
-    global cnt
+# def print_function():
+#     global cnt
 
-    # Base Condition.
-    if cnt == 3:
-        return 1
+#     # Base Condition.
+#     if cnt == 3:
+#         return 1
     
-    print(cnt)
+#     print(cnt)
     
 
-    # Count Incremented
-    cnt += 1
-    print_function()
+#     # Count Incremented
+#     cnt += 1
+#     print_function()
 
-if __name__ == "__main__":
-    print_function()
+# if __name__ == "__main__":
+#     print_function()
+
+
+
+n = 5
+ans = [0] * n
+print(ans)
