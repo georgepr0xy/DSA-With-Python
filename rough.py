@@ -92,6 +92,9 @@
 
 
 
-n = 5
-ans = [0] * n
-print(ans)
+# n = 5
+# ans = [0] * n
+# print(ans)
+n = int(input("enter:"))
+arr = list(map(int, input().split()))
+print(arr)
