@@ -95,6 +95,29 @@
 # n = 5
 # ans = [0] * n
 # print(ans)
-n = int(input("enter:"))
-arr = list(map(int, input().split()))
-print(arr)
+# n = int(input("enter:"))
+# arr = list(map(int, input().split()))
+# print(arr)
+# def main():
+#     # n = int(input())
+#     arr = list(map(int, input().split()))
+
+#     # precompute
+#     hash_table = [0] * 13
+#     for num in arr:
+#         hash_table[num] += 1
+
+#     q = int(input())
+#     while q > 0:
+#         number = int(input())
+#         # fetching
+#         print(hash_table[number])
+#         q -= 1
+
+# if __name__ == "__main__":
+#     main()
+arr = list(map(int,input("enter the array:").split()))
+unique = set(arr)
+print(unique)
+for i in unique:
+    print(i)
