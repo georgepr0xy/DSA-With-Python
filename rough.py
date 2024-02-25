@@ -130,6 +130,10 @@
 # name = r" my name is \n george"
 # print(name)
 
-l= ['game', "is", "fun"]
-print("seth".join(l))
+# l= ['game', "is", "fun"]
+# print("seth".join(l))
+
+
+fruits = [x**2 for x in range(10)]
+print(fruits)
 
