@@ -116,8 +116,17 @@
 
 # if __name__ == "__main__":
 #     main()
-arr = list(map(int,input("enter the array:").split()))
-unique = set(arr)
-print(unique)
-for i in unique:
-    print(i)
+# arr = list(map(int,input("enter the array:").split()))
+# unique = set(arr)
+# print(unique)
+# for i in unique:
+#     print(i)
+# num_list = "0123456789"
+# print(num_list[::-1])
+
+# name = "My name is \"George province\" "
+# print(name)
+
+name = r" my name is \n george"
+print(name)
+
