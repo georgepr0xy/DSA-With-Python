@@ -127,6 +127,9 @@
 # name = "My name is \"George province\" "
 # print(name)
 
-name = r" my name is \n george"
-print(name)
+# name = r" my name is \n george"
+# print(name)
+
+l= ['game', "is", "fun"]
+print("seth".join(l))
 
