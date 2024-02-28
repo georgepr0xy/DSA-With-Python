@@ -134,6 +134,9 @@
 # print("seth".join(l))
 
 
-fruits = [x**2 for x in range(10)]
-print(fruits)
+# fruits = [x**2 for x in range(10)]
+# print(fruits)
+
+mp = {"shape", "shape", "mayank", 3,5}
+print(mp)
 
