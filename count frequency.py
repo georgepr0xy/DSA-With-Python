@@ -29,8 +29,11 @@ def countfreq(arr,n):
             mp[arr[i]] += 1
        else: 
             mp[arr[i]] = 1
+    print(mp)        
     for x in mp:
         print(x,mp[x])   
+        
+    print(mx)
 
 b= countfreq(arr,n)
 
